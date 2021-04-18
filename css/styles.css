@@ -1,0 +1,27 @@
+body {
+  color: black;
+  background: #e2e3e5 url("../images/cooking.jpeg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  text-align: left;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  padding: 0px 0px 400px 0px; }
+  body * {
+    box-sizing: border-box; }
+  body .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; }
+  body .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  body ul {
+    text-align: left; }
+  body .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%; }
