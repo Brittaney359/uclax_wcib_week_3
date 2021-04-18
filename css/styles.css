@@ -7,6 +7,11 @@ body {
   text-align: left;
   font-family: 'Helvetica', 'Arial', sans-serif;
   padding: 0px 0px 400px 0px; }
+  body h1 {
+    text-align: center; }
+  body h2 {
+    text-align: center;
+    font-family: cursive; }
   body * {
     box-sizing: border-box; }
   body .column {
@@ -24,4 +29,5 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%; }
+    width: 600px;
+    height: auto; }
